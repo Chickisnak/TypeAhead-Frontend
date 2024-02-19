@@ -8,7 +8,7 @@ function App() {
     return data.results.slice(0, maxItems)
   };
 
-  const dataPromise = async (query, signal) => await fetch(`http://localhost:1234/user?search=${query}`, {signal})
+  const dataPromise = async (query, signal) => await fetch(`https://typeahead-api.onrender.com/user?search=${query}`, {signal})
   return (
     <>
     <div className="wrapper">
