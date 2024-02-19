@@ -22,7 +22,7 @@ function App() {
           label:"label",
           input:"input"
         }}
-        debounceWait={200}
+        debounceWait={50}
         listBox={(items, activeIndex) => <ListBox items={items} activeIndex={activeIndex}/>}
         noItemMessage={() => <div>Sorry no person found</div>}
         errorMessage={() => <div>Something went wrong</div>}
