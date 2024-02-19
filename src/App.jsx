@@ -16,7 +16,7 @@ function App() {
         id="personName" 
         name="personName"
         label="Enter Person Name" 
-        placeholder="Enter your fav. star war char"
+        placeholder="Enter any name"
         autoComplete
         styles={{
           label:"label",
